@@ -1,0 +1,16 @@
+Class: Menu
+Object: breakfast
+
+Attributes:
+
+price: 4.99
+material: "Paper"
+number_of_items: 6
+chef_special: false
+
+Methods:
+
+add_sales_tax: (takes price and increases by 8.25% ) => price: 5.40
+make_spill_proof: (takes material and replaces string to "Laminated Paper") => material: "Laminated Paper"
+reduce_items_to_half: (takes number_of_items at divides it into half) => number_of_items: 3
+announce_chef_special: (takes chef_special and makes it true) => chef_special: true
