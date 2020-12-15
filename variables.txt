@@ -1,0 +1,17 @@
+food = "Jello"
+
+is_delicious = true
+
+food = "Soda"
+
+num2 = 5
+
+num7 = 10
+
+quotient = num7 / num2
+
+songs = ["Like a Stone", "Weekend Wars", "Romeo"]
+
+songs.shift()
+
+puts "How many characters are there in '#{food}'?"
