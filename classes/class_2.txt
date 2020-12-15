@@ -1,0 +1,13 @@
+Class: Employee
+
+Attributes:
+number_of_shifts: (integer)
+weekly_salary_of_employee: (float)
+is_sick: (boolean)
+last_hired_person: (string)
+
+Methods:
+reduce_available_shifts: (takes number_of_shifts and reduces it by 1)
+create_pay_raise: (takes weekly_salary_of_employee and increases it by 50)
+send_home_early: (takes is_sick boolean and makes it true)
+hire_new: (takes last_hired_person and changes the string to newly hired name")
